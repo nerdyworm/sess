@@ -1,0 +1,17 @@
+{
+    "paths": [
+        "."
+    ],
+    "depth": 2,
+    "exclude": [],
+    "include": ["\\.(go)$"],
+    "command": [
+        "bash", "-c", "scripts/dev"
+    ],
+    "env": {
+        "POWERD_BY": "github.com/codeskyblue/fswatch"
+    },
+    "autorestart": false,
+    "restart-interval": 0,
+    "kill-signal": "KILL"
+}
